@@ -252,7 +252,7 @@ footer {
 /* =====================
    RESPONSIVE
 ===================== */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .navbar, .hero, .section {
     padding: 60px 30px;
   }
@@ -260,4 +260,11 @@ footer {
   .hero h1 {
     font-size: 48px;
   }
+} */
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+  }
 }
+
